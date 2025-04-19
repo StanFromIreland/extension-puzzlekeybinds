@@ -14,5 +14,12 @@ document.addEventListener("keydown", (event) => {
     erase?.click();
     event.preventDefault();
   }
+
+  // broken and I have no idea why
+  if (event.key === 'n') {
+    const notes = document.querySelector('#triggerNotesMode-a');
+    notes?.click();
+    event.preventDefault();
+  }
 });
 

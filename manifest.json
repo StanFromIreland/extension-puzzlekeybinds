@@ -1,12 +1,8 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Times Puzzle Keybinds",
   "version": "1.0",
   "description": "Add custom keybindings for Times puzzles.",
-  "permissions": ["scripting"],
-  "host_permissions": [
-    "https://www.thetimes.co.uk/*"
-  ],
   "content_scripts": [
     {
       "matches": ["https://www.thetimes.co.uk/puzzles/sudoku/*"],
